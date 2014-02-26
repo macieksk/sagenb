@@ -9,7 +9,7 @@ from flask.ext.autoindex import AutoIndex
 try:
     from sage.env import SAGE_SRC
 except ImportError:
-    SAGE_SRC = os.environ.get('SAGE_SRC', os.path.join(os.environ['SAGE_ROOT'], 'devel', 'sage'))
+    SAGE_SRC = os.environ.get('SAGE_SRC', os.path.join(os.environ['SAGE_ROOT'], 'src', 'sage'))
 SRC = os.path.join(SAGE_SRC, 'sage')
 from flask.ext.openid import OpenID
 from flask.ext.babel import Babel, gettext, ngettext, lazy_gettext, get_locale
