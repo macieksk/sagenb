@@ -128,3 +128,9 @@ make sense in some cases.
 
     * Copy ``sagenb.mo`` to ``sagenb/locale/xx_YY/LC_MESSAGES/``, where
       xx_YY is a locale code (en_US, pt_BR, en_UK, etc.)
+
+
+Remarks on installation
+===========
+
+Installation not tested, yet. What works for sure is installation from branch works_with_sage-6.1.1 and then copying files from /sagenb into local/lib/python2.7/site-packages/sagenb-0.10.7.1-py2.7.egg/sagenb/ 
